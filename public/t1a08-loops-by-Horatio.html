@@ -1,28 +1,43 @@
+version 0.0.1 
 
- version 0.0.1 
+<h2 align=center>t1a08-loops-by-Horatio.html</h2> 
+ 
+<a href="">Good reference to javascript Loops</a><br> 
 
- <h2 align=center>t1a08-loops-by-Horatio.html</h2> 
+<h4> Example input output code</h4> 
+<pre> 
+    for (let myloop = 0; myloop < myMax; myLoop++ ){ 
+        do stsuff
+    } 
+</pre> 
 
- <a href="">Good reference to javascript Loops</a><br> 
+<h4> Example working code</h4> 
 
- <h4> Example input output code</h4> 
- <pre> 
-     for (let myloop = 0; myloop < myMax; myLoop++ ){ 
-         do stuff
+Max loops: <input id="myNum01" type=number value="4" ><br> 
+
+<input type=button value="Basic For loop with Decisions" onclick="{ 
+    document.getElementById('myDiv01').innerHTML = '' 
+    let myTemp  = '' 
+    
+    let myMax = parseInt(document.getElementById('myNum01').value) 
+
+    for (let myloop = 0; myLoop < myMax; myLoop++ ){ 
+        if (myLoop * 2 > myMax){ 
+           document.getElementByid('myDiv01').innerHTML += ' cool ' 
+       } 
+       myTemp += "Loop number: ' + myLoop = '<br>'
      } 
- </pre> 
+     document.getElementByid('myDiv01').innerHTML = myTemp 
+ }"> 
+   
+ <div id="myDiv01">...</div> 
 
- <h4> Example working code</h4> 
-
- Max loops: <input id="myNum01" type=number value="4" ><br> 
-
- <input type=button value="Basic For loop with Decisions" onclick="{ 
-     document.getElementById('myDiv01').innerHTML = '' 
-     let myTemp  = '' 
-     let myMax = parseInt(document.getElementById('myNum01').value) 
-
-     for (let myloop = 
-
-
-
-
+ <br>
+ <br>
+ <br>
+ <br>
+ <br> 
+ <br> 
+ <br> 
+ <br> 
+ <br> 
